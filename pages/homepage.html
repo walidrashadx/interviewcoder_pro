@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InterviewCoder Pro - Code Comes Alive Through Animation</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Finterviewc1900back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <header class="bg-surface shadow-subtle sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="h-8 w-8 text-primary mr-3" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M16 2L4 8v16l12 6 12-6V8L16 2zm0 4l8 4v12l-8 4-8-4V10l8-4z"/>
+                        <circle cx="16" cy="16" r="4" fill="#00d4aa"/>
+                    </svg>
+                    <span class="text-xl font-bold text-gradient">InterviewCoder Pro</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-primary font-semibold">Home</a>
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-quick">Course Explorer</a>
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-quick">Live Studio</a>
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-quick">Practice Hub</a>
+                    <a href="javascript:void(0)" class="text-text-secondary hover:text-primary transition-quick">Interview Prep</a>
+                    <a href="community_showcase.html" class="text-text-secondary hover:text-primary transition-quick">Community</a>
+                    <a href="about_interview_coder_pro.html" class="text-text-secondary hover:text-primary transition-quick">About</a>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <button class="btn-secondary">Sign In</button>
+                    <button class="btn-primary">Start Free</button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-lg hover:bg-border-light transition-quick">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Live Animation -->
+    <section class="relative bg-gradient-to-br from-secondary-900 via-secondary-800 to-primary-900 text-white overflow-hidden">
+        <!-- Animated Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-20 w-64 h-64 bg-accent rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div class="absolute top-40 right-20 w-72 h-72 bg-primary rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-20 left-1/3 w-80 h-80 bg-accent-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl lg:text-6xl font-bold leading-tight">
+                            <span class="text-gradient">Code Comes Alive</span><br />
+                            Through Animation
+                        </h1>
+                        <p class="text-xl text-gray-300 max-w-lg">
+                            Master programming concepts through immersive, visual learning experiences. See algorithms dance, data structures breathe, and your code execute in real-time.
+                        </p>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="btn-accent text-lg px-8 py-4">Start Free Course</button>
+                        <button class="btn-secondary text-lg px-8 py-4 bg-transparent border-white text-white hover:bg-white hover:text-secondary-900">Explore Animations</button>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="flex items-center space-x-8 pt-8">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">50,000+</div>
+                            <div class="text-sm text-gray-400">Developers Trained</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">95%</div>
+                            <div class="text-sm text-gray-400">Interview Success</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">4.9/5</div>
+                            <div class="text-sm text-gray-400">User Rating</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Live Code Animation Demo -->
+                <div class="relative">
+                    <div class="bg-secondary-900 rounded-2xl p-6 shadow-strong border border-secondary-700">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex space-x-2">
+                                <div class="w-3 h-3 bg-error rounded-full"></div>
+                                <div class="w-3 h-3 bg-warning rounded-full"></div>
+                                <div class="w-3 h-3 bg-success rounded-full"></div>
+                            </div>
+                            <span class="text-xs text-gray-400 font-mono">bubble_sort.py</span>
+                        </div>
+                        
+                        <!-- Code Block with Animation -->
+                        <div class="code-block text-sm space-y-2">
+                            <div class="text-accent">def bubble_sort(arr):</div>
+                            <div class="ml-4 text-gray-300">n = len(arr)</div>
+                            <div class="ml-4 text-gray-300">for i in range(n):</div>
+                            <div class="ml-8 text-primary-300">for j in range(0, n-i-1):</div>
+                            <div class="ml-12 text-warning">if arr[j] > arr[j+1]:</div>
+                            <div class="ml-16 text-accent-300">arr[j], arr[j+1] = arr[j+1], arr[j]</div>
+                        </div>
+                        
+                        <!-- Visualization Area -->
+                        <div class="mt-6 p-4 bg-secondary-800 rounded-lg">
+                            <div class="text-xs text-gray-400 mb-2">Live Visualization:</div>
+                            <div class="flex space-x-2 items-end">
+                                <div class="w-8 h-16 bg-primary rounded animate-bounce" style="animation-delay: 0s;"></div>
+                                <div class="w-8 h-12 bg-accent rounded animate-bounce" style="animation-delay: 0.2s;"></div>
+                                <div class="w-8 h-20 bg-warning rounded animate-bounce" style="animation-delay: 0.4s;"></div>
+                                <div class="w-8 h-8 bg-error rounded animate-bounce" style="animation-delay: 0.6s;"></div>
+                                <div class="w-8 h-24 bg-success rounded animate-bounce" style="animation-delay: 0.8s;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Skill Assessment Widget -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Discover Your Coding Level</h2>
+            <p class="text-text-secondary text-lg mb-8">Take our interactive assessment to get personalized learning recommendations</p>
+            
+            <div class="card max-w-2xl mx-auto">
+                <div class="space-y-6">
+                    <div class="text-left">
+                        <label class="block text-sm font-semibold mb-2">What's your experience with algorithms?</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <button class="p-4 border border-border rounded-lg hover:border-primary hover:bg-primary-50 transition-quick text-left">
+                                <div class="font-semibold">Beginner</div>
+                                <div class="text-sm text-text-secondary">New to programming</div>
+                            </button>
+                            <button class="p-4 border border-border rounded-lg hover:border-primary hover:bg-primary-50 transition-quick text-left">
+                                <div class="font-semibold">Intermediate</div>
+                                <div class="text-sm text-text-secondary">Some experience</div>
+                            </button>
+                            <button class="p-4 border border-border rounded-lg hover:border-primary hover:bg-primary-50 transition-quick text-left">
+                                <div class="font-semibold">Advanced</div>
+                                <div class="text-sm text-text-secondary">Experienced developer</div>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary w-full">Start Assessment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features Section -->
+    <section class="py-20 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Why Choose InterviewCoder Pro?</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">Experience the future of coding education with our three revolutionary learning approaches</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1: Animated Algorithm Visualization -->
+                <div class="card card-hover group cursor-pointer">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-smooth">
+                            <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
+                                <path d="M9 12l2 2 4-4" stroke="white" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold">Animated Algorithm Visualization</h3>
+                        <p class="text-text-secondary">Watch sorting algorithms, graph traversals, and data structures come alive through smooth, interactive animations that make complex concepts crystal clear.</p>
+                        
+                        <!-- Mini Demo on Hover -->
+                        <div class="mt-4 p-3 bg-secondary-50 rounded-lg opacity-0 group-hover:opacity-100 transition-smooth">
+                            <div class="flex justify-center space-x-1">
+                                <div class="w-4 h-8 bg-primary rounded animate-pulse"></div>
+                                <div class="w-4 h-6 bg-accent rounded animate-pulse" style="animation-delay: 0.2s;"></div>
+                                <div class="w-4 h-10 bg-warning rounded animate-pulse" style="animation-delay: 0.4s;"></div>
+                                <div class="w-4 h-4 bg-error rounded animate-pulse" style="animation-delay: 0.6s;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 2: Real-Time Code Execution -->
+                <div class="card card-hover group cursor-pointer">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-accent-100 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-smooth">
+                            <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold">Real-Time Code Execution</h3>
+                        <p class="text-text-secondary">See your code execute line by line with visual feedback, variable tracking, and instant error highlighting that accelerates your learning process.</p>
+                        
+                        <!-- Mini Demo on Hover -->
+                        <div class="mt-4 p-3 bg-secondary-50 rounded-lg opacity-0 group-hover:opacity-100 transition-smooth">
+                            <div class="text-xs font-mono text-left">
+                                <div class="text-accent">→ x = 5</div>
+                                <div class="text-primary">→ y = 10</div>
+                                <div class="text-warning">→ result = x + y</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 3: Interactive Debugging Studio -->
+                <div class="card card-hover group cursor-pointer">
+                    <div class="text-center space-y-4">
+                        <div class="w-16 h-16 bg-warning-100 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-smooth">
+                            <svg class="w-8 h-8 text-warning" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold">Interactive Debugging Studio</h3>
+                        <p class="text-text-secondary">Master debugging with visual breakpoints, step-through execution, and animated call stack visualization that transforms error-hunting into an engaging experience.</p>
+                        
+                        <!-- Mini Demo on Hover -->
+                        <div class="mt-4 p-3 bg-secondary-50 rounded-lg opacity-0 group-hover:opacity-100 transition-smooth">
+                            <div class="flex items-center justify-center space-x-2">
+                                <div class="w-2 h-2 bg-error rounded-full animate-ping"></div>
+                                <span class="text-xs text-error">Breakpoint</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Showcase -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Community Creations</h2>
+                <p class="text-xl text-text-secondary">Discover amazing animated solutions created by our community</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Community Item 1 -->
+                <div class="card card-hover">
+                    <div class="space-y-4">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Animated Binary Tree Visualization" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h3 class="font-bold text-lg">Animated Binary Tree</h3>
+                            <p class="text-text-secondary text-sm">Interactive tree traversal with smooth animations</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="User Avatar" class="w-6 h-6 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <span class="text-sm text-text-secondary">Sarah Chen</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                <span class="text-sm text-text-secondary">124</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Community Item 2 -->
+                <div class="card card-hover">
+                    <div class="space-y-4">
+                        <img src="https://images.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="Pathfinding Algorithm Visualization" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h3 class="font-bold text-lg">A* Pathfinding</h3>
+                            <p class="text-text-secondary text-sm">Beautiful maze-solving algorithm animation</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="User Avatar" class="w-6 h-6 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <span class="text-sm text-text-secondary">Alex Rodriguez</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                <span class="text-sm text-text-secondary">89</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Community Item 3 -->
+                <div class="card card-hover">
+                    <div class="space-y-4">
+                        <img src="https://images.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png" alt="Sorting Algorithm Race" class="w-full h-48 object-cover rounded-lg" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h3 class="font-bold text-lg">Sorting Race</h3>
+                            <p class="text-text-secondary text-sm">Compare multiple sorting algorithms side by side</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="User Avatar" class="w-6 h-6 rounded-full object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                <span class="text-sm text-text-secondary">Maya Patel</span>
+                            </div>
+                            <div class="flex items-center space-x-1">
+                                <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                <span class="text-sm text-text-secondary">156</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="community_showcase.html" class="btn-primary">Explore More Creations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Metrics -->
+    <section class="py-20 bg-gradient-to-r from-primary to-accent text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Proven Results</h2>
+                <p class="text-xl opacity-90">Join thousands of developers who've transformed their careers</p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold">50,000+</div>
+                    <div class="text-lg opacity-90">Developers Trained</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold">95%</div>
+                    <div class="text-lg opacity-90">Interview Success Rate</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold">500+</div>
+                    <div class="text-lg opacity-90">Companies Hiring</div>
+                </div>
+                <div class="space-y-2">
+                    <div class="text-4xl font-bold">4.9/5</div>
+                    <div class="text-lg opacity-90">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-4">Ready to See Code Come Alive?</h2>
+            <p class="text-xl text-text-secondary mb-8">Start your journey with our free animated algorithm course and experience the future of coding education.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="btn-primary text-lg px-8 py-4">Start Free Course</button>
+                <button class="btn-secondary text-lg px-8 py-4">Watch Demo</button>
+            </div>
+            
+            <p class="text-sm text-text-secondary mt-6">No credit card required • 7-day free trial • Cancel anytime</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg class="h-8 w-8 text-accent mr-3" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L4 8v16l12 6 12-6V8L16 2zm0 4l8 4v12l-8 4-8-4V10l8-4z"/>
+                            <circle cx="16" cy="16" r="4" fill="#00d4aa"/>
+                        </svg>
+                        <span class="text-xl font-bold">InterviewCoder Pro</span>
+                    </div>
+                    <p class="text-gray-400">Making coding education visual, interactive, and engaging through the power of animation.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold mb-4">Platform</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Course Explorer</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Live Studio</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Practice Hub</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Interview Prep</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Community -->
+                <div>
+                    <h3 class="font-semibold mb-4">Community</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="community_showcase.html" class="hover:text-white transition-quick">Showcase</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Forums</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Mentors</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Events</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Support -->
+                <div>
+                    <h3 class="font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="about_interview_coder_pro.html" class="hover:text-white transition-quick">About</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Help Center</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Contact</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-quick">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-secondary-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 InterviewCoder Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
